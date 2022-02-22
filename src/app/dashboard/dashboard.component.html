@@ -1,0 +1,16 @@
+<app-counter (count)="onCount($event)"></app-counter>
+
+<div class="container" fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="10px">
+  <div fxFlex="25">
+    <app-tile [title]="'orders'" [progress]="10" [count]="count"></app-tile>
+  </div>
+  <div fxFlex="25">
+    <app-tile [progress]="1125"></app-tile>
+  </div>
+  <div fxFlex="25">
+    <app-tile [progress]="588625"></app-tile>
+  </div>
+  <div fxFlex="25">
+    <app-tile [progress]="231232588625"></app-tile>
+  </div>
+</div>
